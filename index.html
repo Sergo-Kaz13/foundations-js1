@@ -4,9 +4,59 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="main.js" defer></script>
   <title>Document</title>
 </head>
 <body>
-  
+  <div class="wrapper">
+    <div class="block-norm _container">
+      <h2>Норма</h2>
+      <div>
+        <h4>1. Запитай ім’я користувача та виведи у відповідь “Привіт, ім’я”.</h4>
+        <input class="user-name" id="user-name" type="text" value="" placeholder="Name">
+        <label for="user-name"></label>
+      </div>
+
+      <div>
+        <h4>2. Запитай рік народження користувача, порахуй його/її вік і виведи результат. Поточний рік вкажи в коді як константу.</h4>
+        <input class="user-year" id="user-year" type="text" value="" placeholder="Year of birth">
+        <label for="user-year"></label>
+      </div>
+
+      <div>
+        <h4>3. Запитай у користувача довжину сторони квадрату і виведи периметр цього квадрата.</h4>
+        <input class="perimeter-square" id="perimeter-square" type="text" value="" placeholder="Length sides of the square">
+        <label for="perimeter-square"></label>
+      </div>
+    </div>
+
+    <div class="block-maximum _container">
+      <h2>Максимум</h2>
+      <div>
+        <h4>1. Запитай у користувача радіус кола і виведи площу такої окружності.
+        </h4>
+        <input class="radius-circle" id="radius-circle" type="text" value="" placeholder="Radius of the circle">
+        <label for="radius-circle"></label>
+      </div>
+
+      <div>
+        <h4>2. Запитай у користувача відстань в кілометрах між двома містами і за скільки годин він хоче дістатися. Порахуй швидкість, з якою необхідно рухатися, щоб встигнути вчасно.</h4>
+        <input class="distance" id="distance" type="text" value="" placeholder="Distance in km"> 
+        <label for="">dasdqsdq</label> <br>
+        <input class="time" id="time" type="text" value="" placeholder="Time"> <br>
+        <button class="btn">Обчислити</button>
+      </div>
+
+      <div>
+        <h4>3. Реалізуй конвертор валют. Користувач вводить долари, програма переводить їх в євро. Курс валют зберігається в константі.</h4>
+        <input class="converter" id="converter" type="text" value="" placeholder="Amount in dollars">
+        <label for="converter"></label>
+      </div>
+    </div>
+  </div>
 </body>
 </html>
